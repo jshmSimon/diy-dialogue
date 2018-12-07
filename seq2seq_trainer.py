@@ -11,6 +11,7 @@ from config import Config
 
 
 """
+tf.app.flags.FLAGS 是全局变量
 tf.app.flags.FLAGS 用于在命令行状态下运行时传递参数
 tf.app.flags.DEFINE_string() 定义了一个string类型的参数，函数内第一个参数是该参数的名称，第二个是默认值，第三个是描述
 """
