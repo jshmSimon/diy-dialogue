@@ -1,0 +1,19 @@
+class Config:
+    rnn_type = "gru"
+    beam_size = 5
+    max_grad_norm = 5
+    split_ratio = 0.8
+    num_layer = 2
+    embedding_dim = 300
+    hidden_dim = 512
+    num_epoch = 10
+    learning_rate = 0.0002
+    keep_prob = 0.8
+    vocab_size = -1 # 将在读取数据之后，更新为真实值 # Vocab Size: 18506
+    SOS_ID = -1 # 将在读取数据之后，更新为真实值 # 1
+    EOS_ID = -1 # 将在读取数据之后，更新为真实值 # 2
+    max_length = 12
+    num_utterance = 2
+    batch_size = 20
+    latent_dim = 8
+    full_kl_step = 12000
